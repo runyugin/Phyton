@@ -21,22 +21,20 @@ print(table)
 
 # Задача 3
 
-# i = int(input())
-# j = int(input())
+i = int(input())
+j = int(input())
 
-# if i == j:
-#     print('нужна доп информация')
-# else:
-#     print(i+j-1)
+if i == j:
+    print('нужна доп информация')
+else:
+    print(i+j-1)
 
 
 # Задача 4
 
-i = int(input())
+y = int(input())
 
-if i%400==0:
-    print('YES')
-elif i%4==0 and i%100!=0:
+if y%400==0 or (y%4==0 and y%100!=0):
     print('YES')
 else:
     print('NO')
